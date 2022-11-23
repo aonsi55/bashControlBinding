@@ -20,7 +20,7 @@ sudo apt-get install xdotool
 ```
 check the proper way to install xdotool **if it exists** in you linux OS version. 
 
-##In case of multiple ID for the same window name
+## In case of multiple ID for the same window name
 
 Sometimes, for apps with multiple window ID, only one ID is true user interface, and accordingly the above method would not execute proporly, in order to obtain the true ID of the user interface of some window, the above bash script is edited as follows, 
 ```
