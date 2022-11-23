@@ -1,0 +1,1 @@
+bash -c ' [ -n "$(xdotool search --name "username@devicename")" ] && [ "$(xdotool getactivewindow)" = "$(xdotool search --name "username@devicename")" ] && xdotool windowminimize "$(xdotool search --name "username@devicename")" || xdotool windowactivate "$(xdotool search --name "username@devicename")" || "gnome-terminal" '
