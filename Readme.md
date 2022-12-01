@@ -21,7 +21,7 @@ check the proper way to install xdotool **if it exists** in you linux OS version
 
 ## Usage
 
-We will use the bash code to make a keyboard shortcut, which upon executing create a new instance of gnome-terminal if it does not exists, and it exists, it would focus it, and if it is focused, then it would minimize it the code is provided in the bashBinding.sh in the repository. In order to use the script you need to find the ```windowname``` and the ```appname```. 
+the bash script in the bashBinding.sh file is used to create a new instance of an application with the name ```appname```, and the focus the window of this application, where the name of this window is ```windowname```, where if an instance of the application exists it would focus it, and if it is focused, then it would minimize it the code is provided in the repository. In order to use the script you need to find the ```windowname``` and the ```appname```. 
 
 
 ### Window Name
@@ -48,7 +48,7 @@ Knowing the windowname and the appname, we can rewrite the bash script using bot
 
 ### Illustration
 
-Check the following videl to see how to create the binding, 
+Check the following video to see how to create the binding, and the purpose of the created keyboard-shortcut binding, 
 
 
 ## Special Case: In case of multiple ID for the same window name
